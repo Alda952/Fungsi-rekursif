@@ -1,0 +1,11 @@
+def faktorial(n):
+    # Kasus dasar
+    if n == 0:
+        return 1
+    else:
+        # Kasus rekursif
+        return n * faktorial(n - 1)
+
+# Meminta input
+x = int(input("Masukkan Bilangan: "))
+print(f"Faktorial dari {x} adalah {faktorial(x)}")
